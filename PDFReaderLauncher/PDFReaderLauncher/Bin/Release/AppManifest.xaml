@@ -1,0 +1,6 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="PDFReaderLauncher" EntryPointType="PDFReaderLauncher.App" RuntimeVersion="4.7.50308.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="PDFReaderLauncher" Source="PDFReaderLauncher.dll" />
+    <AssemblyPart x:Name="WPCordovaClassLib" Source="WPCordovaClassLib.dll" />
+  </Deployment.Parts>
+</Deployment>
